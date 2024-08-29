@@ -1,0 +1,71 @@
+.table_string_cell {
+    background-color: rgb(234, 239, 247);
+    height: 45px;
+    width: 128px;
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.table_string_cell.positive {
+    background-color: rgb(187, 243, 199);
+    height: 45px;
+    width: 128px;
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.table_string_cell.negative {
+    background-color: rgb(245, 198, 198);
+    height: 45px;
+    width: 128px;
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.table_string_cell_title {
+    background-color: rgb(222, 228, 241);
+    width: 300px;
+    height: 45px;
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.table_string {
+    display: flex;
+    justify-content: space-between;
+    color:rgb(48, 48, 48);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+
+.today {
+    background-color: rgb(194, 229, 245);
+}
+
+.yesterday_percents {
+    font-weight: 900;
+}
+
+.yesterday_percents.negative {
+    color:rgb(240, 43, 43);
+}
+
+.yesterday_percents.positive {
+    color: rgb(23, 182, 23);
+}

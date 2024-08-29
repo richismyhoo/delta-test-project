@@ -1,0 +1,7 @@
+.graph_container {
+    width: 680px;
+    height: 250px;
+    margin-top: 4px;
+    display: flex;
+    margin-left: 10px;
+}
